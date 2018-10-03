@@ -1,0 +1,119 @@
+[04-Aug-2017 13:18:53 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Model/Layout.php:555
+Stack trace:
+#0 /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Controller/Varien/Action.php(390): Mage_Core_Model_Layout->getOutput()
+#1 /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Install/controllers/WizardController.php(120): Mage_Core_Controller_Varien_Action->renderLayout()
+#2 /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Install_WizardController->beginAction()
+#3 /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('begin')
+#4 /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object in /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Model/Layout.php on line 555
+[04-Aug-2017 13:18:57 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Model/Layout.php:555
+Stack trace:
+#0 /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Controller/Varien/Action.php(390): Mage_Core_Model_Layout->getOutput()
+#1 /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Install/controllers/WizardController.php(120): Mage_Core_Controller_Varien_Action->renderLayout()
+#2 /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Install_WizardController->beginAction()
+#3 /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('begin')
+#4 /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object in /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Model/Layout.php on line 555
+[04-Aug-2017 13:18:58 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Model/Layout.php:555
+Stack trace:
+#0 /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Controller/Varien/Action.php(390): Mage_Core_Model_Layout->getOutput()
+#1 /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Install/controllers/WizardController.php(120): Mage_Core_Controller_Varien_Action->renderLayout()
+#2 /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Install_WizardController->beginAction()
+#3 /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('begin')
+#4 /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object in /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Model/Layout.php on line 555
+[04-Aug-2017 13:19:00 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Model/Layout.php:555
+Stack trace:
+#0 /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Controller/Varien/Action.php(390): Mage_Core_Model_Layout->getOutput()
+#1 /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Install/controllers/WizardController.php(120): Mage_Core_Controller_Varien_Action->renderLayout()
+#2 /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Install_WizardController->beginAction()
+#3 /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('begin')
+#4 /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object in /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Model/Layout.php on line 555
+[04-Aug-2017 13:19:01 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Model/Layout.php:555
+Stack trace:
+#0 /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Controller/Varien/Action.php(390): Mage_Core_Model_Layout->getOutput()
+#1 /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Install/controllers/WizardController.php(120): Mage_Core_Controller_Varien_Action->renderLayout()
+#2 /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Install_WizardController->beginAction()
+#3 /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('begin')
+#4 /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object in /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Model/Layout.php on line 555
+[04-Aug-2017 13:19:13 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Model/Layout.php:555
+Stack trace:
+#0 /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Controller/Varien/Action.php(390): Mage_Core_Model_Layout->getOutput()
+#1 /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Install/controllers/WizardController.php(120): Mage_Core_Controller_Varien_Action->renderLayout()
+#2 /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Install_WizardController->beginAction()
+#3 /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('begin')
+#4 /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object in /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Model/Layout.php on line 555
+[04-Aug-2017 13:19:18 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Model/Layout.php:555
+Stack trace:
+#0 /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Controller/Varien/Action.php(390): Mage_Core_Model_Layout->getOutput()
+#1 /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Install/controllers/WizardController.php(120): Mage_Core_Controller_Varien_Action->renderLayout()
+#2 /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Install_WizardController->beginAction()
+#3 /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('begin')
+#4 /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object in /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Model/Layout.php on line 555
+[04-Aug-2017 13:19:22 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Model/Layout.php:555
+Stack trace:
+#0 /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Controller/Varien/Action.php(390): Mage_Core_Model_Layout->getOutput()
+#1 /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Install/controllers/WizardController.php(120): Mage_Core_Controller_Varien_Action->renderLayout()
+#2 /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Install_WizardController->beginAction()
+#3 /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('begin')
+#4 /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object in /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Model/Layout.php on line 555
+[04-Aug-2017 13:19:23 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Model/Layout.php:555
+Stack trace:
+#0 /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Controller/Varien/Action.php(390): Mage_Core_Model_Layout->getOutput()
+#1 /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Install/controllers/WizardController.php(120): Mage_Core_Controller_Varien_Action->renderLayout()
+#2 /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Install_WizardController->beginAction()
+#3 /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('begin')
+#4 /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object in /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Model/Layout.php on line 555
+[04-Aug-2017 13:19:25 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Model/Layout.php:555
+Stack trace:
+#0 /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Controller/Varien/Action.php(390): Mage_Core_Model_Layout->getOutput()
+#1 /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Install/controllers/WizardController.php(120): Mage_Core_Controller_Varien_Action->renderLayout()
+#2 /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Install_WizardController->beginAction()
+#3 /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('begin')
+#4 /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object in /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Model/Layout.php on line 555
+[04-Aug-2017 13:19:26 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Model/Layout.php:555
+Stack trace:
+#0 /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Controller/Varien/Action.php(390): Mage_Core_Model_Layout->getOutput()
+#1 /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Install/controllers/WizardController.php(120): Mage_Core_Controller_Varien_Action->renderLayout()
+#2 /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Install_WizardController->beginAction()
+#3 /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('begin')
+#4 /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object in /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Model/Layout.php on line 555
+[04-Aug-2017 13:19:32 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Model/Layout.php:555
+Stack trace:
+#0 /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Controller/Varien/Action.php(390): Mage_Core_Model_Layout->getOutput()
+#1 /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Install/controllers/WizardController.php(120): Mage_Core_Controller_Varien_Action->renderLayout()
+#2 /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Install_WizardController->beginAction()
+#3 /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('begin')
+#4 /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object in /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Model/Layout.php on line 555
+[04-Aug-2017 13:20:10 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Model/Layout.php:555
+Stack trace:
+#0 /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Controller/Varien/Action.php(390): Mage_Core_Model_Layout->getOutput()
+#1 /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Install/controllers/WizardController.php(120): Mage_Core_Controller_Varien_Action->renderLayout()
+#2 /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Install_WizardController->beginAction()
+#3 /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('begin')
+#4 /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object in /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Model/Layout.php on line 555
+[04-Aug-2017 13:20:14 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Model/Layout.php:555
+Stack trace:
+#0 /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Controller/Varien/Action.php(390): Mage_Core_Model_Layout->getOutput()
+#1 /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Install/controllers/WizardController.php(120): Mage_Core_Controller_Varien_Action->renderLayout()
+#2 /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Install_WizardController->beginAction()
+#3 /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('begin')
+#4 /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object in /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Model/Layout.php on line 555
+[04-Aug-2017 13:20:16 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Model/Layout.php:555
+Stack trace:
+#0 /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Controller/Varien/Action.php(390): Mage_Core_Model_Layout->getOutput()
+#1 /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Install/controllers/WizardController.php(120): Mage_Core_Controller_Varien_Action->renderLayout()
+#2 /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Install_WizardController->beginAction()
+#3 /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('begin')
+#4 /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object in /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Model/Layout.php on line 555
+[04-Aug-2017 13:20:17 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Model/Layout.php:555
+Stack trace:
+#0 /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Controller/Varien/Action.php(390): Mage_Core_Model_Layout->getOutput()
+#1 /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Install/controllers/WizardController.php(120): Mage_Core_Controller_Varien_Action->renderLayout()
+#2 /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Install_WizardController->beginAction()
+#3 /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('begin')
+#4 /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object in /home/alvus/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Model/Layout.php on line 555
+[13-Mar-2018 18:15:52 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/alvuscc/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Model/Layout.php:555
+Stack trace:
+#0 /home/alvuscc/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Controller/Varien/Action.php(390): Mage_Core_Model_Layout->getOutput()
+#1 /home/alvuscc/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Install/controllers/WizardController.php(120): Mage_Core_Controller_Varien_Action->renderLayout()
+#2 /home/alvuscc/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Install_WizardController->beginAction()
+#3 /home/alvuscc/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('begin')
+#4 /home/alvuscc/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard-> in /home/alvuscc/public_html/scope/shop/demo/ecommerce/magento/app/code/core/Mage/Core/Model/Layout.php on line 555

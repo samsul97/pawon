@@ -1,0 +1,25 @@
+<?php if ($posts = $this->getRecent()): ?>
+    <div class="blog-bg">
+        <div class="widget-latest">
+            <div class="page-title category-title center">
+                <h3><?php echo Mage::helper('blog')->__('Blog');  ?></h3>
+            </div>
+            <ul class="blog-container clearfix">
+                <?php $i = 0; ?>
+                <?php foreach ($posts as $post): ?>
+                    <?php if ($i<3): ?>
+                        <li class="blog-post">
+                            <div class="postContent_img"><?php echo Mage::helper('cms')->getBlockTemplateProcessor()->filter($post->getShortContent()); ?></div>
+                            <div class="widget-latest-details"><span class="time-date"><?php echo $currentDate = date('d F', strtotime($post->getCreatedTime())); ?></span></div>
+                            <div class="widget-latest-title"><a href="<?php echo $post->getAddress(); ?>" ><?php echo $post->getTitle(); ?></a></div>
+                            <div class="postContent_text"><?php echo Mage::helper('cms')->getBlockTemplateProcessor()->filter($post->getShortContent()); ?></div>
+                            <!-- a href="<?php echo $post->getAddress(); ?>"class="aw-blog-read-more all-blog"><?php echo Mage::helper('blog')->__('Read more');  ?></a -->
+                        </li>
+                    <?php endif; ?>
+                    <?php $i++; ?>
+                <?php endforeach; ?>
+            </ul>
+           <!-- <a href="<?php // echo $this->getBlogUrl() ?>"class="aw-blog-read-more all-blog"><?php // echo Mage::helper('blog')->__('View all posts');  ?></a> -->
+        </div>
+    </div>
+<?php endif; ?>

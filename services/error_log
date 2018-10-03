@@ -1,0 +1,9 @@
+[13-Mar-2018 14:18:06 America/New_York] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'alvuscc_hellmoyy'@'localhost' to database 'alvuscc_androidshop' in /home/alvuscc/public_html/scope/shop/services/tools/db.php on line 17
+[13-Mar-2018 14:18:06 America/New_York] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/alvuscc/public_html/scope/shop/services/table/User.php on line 39
+[13-Mar-2018 14:18:06 America/New_York] PHP Warning:  User::processLogin(): Couldn't fetch mysqli in /home/alvuscc/public_html/scope/shop/services/table/User.php on line 39
+[13-Mar-2018 14:18:22 America/New_York] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'alvuscc_hellmoyy'@'localhost' to database 'alvuscc_androidshop' in /home/alvuscc/public_html/scope/shop/services/tools/db.php on line 17
+[13-Mar-2018 14:18:22 America/New_York] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/alvuscc/public_html/scope/shop/services/table/User.php on line 39
+[13-Mar-2018 14:18:22 America/New_York] PHP Warning:  User::processLogin(): Couldn't fetch mysqli in /home/alvuscc/public_html/scope/shop/services/table/User.php on line 39
+[13-Mar-2018 14:18:45 America/New_York] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'alvuscc_hellmoyy'@'localhost' to database 'alvuscc_androidshop' in /home/alvuscc/public_html/scope/shop/services/tools/db.php on line 17
+[13-Mar-2018 14:18:45 America/New_York] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/alvuscc/public_html/scope/shop/services/table/User.php on line 39
+[13-Mar-2018 14:18:45 America/New_York] PHP Warning:  User::processLogin(): Couldn't fetch mysqli in /home/alvuscc/public_html/scope/shop/services/table/User.php on line 39
