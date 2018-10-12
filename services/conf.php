@@ -8,7 +8,7 @@ class CONF {
 	public $DB_SERVER = "localhost";
 	public $DB_USER = "root";
 	public $DB_PASSWORD = "";
-	public $DB_NAME = "pawon";
+	public $DB_NAME = "ci_pawon";
 	
 	/* FCM key for notification */
 	public $FCM_KEY = "AIzaSyDxm51rGf09EGlw1mbHwbtSz5Yd10rT65E";

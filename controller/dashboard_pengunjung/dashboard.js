@@ -1,4 +1,4 @@
-angular.module('App').controller('DashboardController', function ($rootScope, $scope, $http, $mdToast, $cookies, request) {
+angular.module('App').controller('DashboardPengunjungController', function ($rootScope, $scope, $http, $mdToast, $cookies, request) {
 	if (!$rootScope.isCookieExist()) { window.location.href = '#login'; }
 
 	var self = $scope;
@@ -6,7 +6,7 @@ angular.module('App').controller('DashboardController', function ($rootScope, $s
 
 	root.closeAndDisableSearch();
 	root.toolbar_menu = null;
-	$rootScope.pagetitle = 'Dashboard';
+	$rootScope.pagetitle = 'Pawon';
 
     request.getDashboardProduct().then(function (resp) {
         self.order = resp.data.order;

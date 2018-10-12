@@ -34,6 +34,7 @@ angular.module('App').config(['$routeProvider',
 		$routeProvider.
 		
 		when('/dashboard', { templateUrl: 'view/dashboard/dashboard.html', controller: 'DashboardController' }).
+		when('/dashboard_pengunjung', { templateUrl: 'view/dashboard/dashboard_pengunjung.html', controller: 'DashboardPengunjungController' }).
 
 		when('/order', { templateUrl: 'view/order/list.html', controller: 'OrderController' }).
 		when('/create_order', { templateUrl: 'view/order/create.html', controller: 'AddOrderController' }).
@@ -52,6 +53,7 @@ angular.module('App').config(['$routeProvider',
 		when('/setting', { templateUrl: 'view/setting/setting.html', controller: 'SettingController' }).
 		when('/about', { templateUrl: 'view/about/about.html', controller: 'AboutController' }).
 		when('/login', { templateUrl: 'view/login.html', controller: 'LoginController' }).
+		when('/login_pengunjung', { templateUrl: 'view/login_pengunjung.html', controller: 'LoginController' }).
 		
 		otherwise({ redirectTo: '/login' });
 	}
