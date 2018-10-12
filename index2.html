@@ -2,16 +2,18 @@
 <html>
 
 <head>
-  <meta charset="UTF-8"/>
-  <title>Pawon</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <link href="lib/css/angular-material.min.css" rel="stylesheet prefetch" type="text/css"/>
-  <link href="lib/css/fonts/material.css" rel="stylesheet" type="text/css"/>
-  <link href="lib/css/style_pengunjung.css" rel="stylesheet" type="text/css"/>
- 
-  <link href='lib/css/fonts/font-awesome.min.css' rel='stylesheet prefetch'/>
-  <link rel="stylesheet" href="lib/css/style2_pengunjung.css">
-  <link rel="stylesheet" href="lib/css/colorpicker.css">
+	<meta charset="UTF-8"/>
+	<title>Pawon</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+	<link href="lib/css/angular-material.min.css" rel="stylesheet prefetch" type="text/css"/>
+	<link href="lib/css/fonts/material.css" rel="stylesheet" type="text/css"/>
+
+	<link href="lib/css/style_pengunjung.css" rel="stylesheet" type="text/css"/>
+	<link rel="stylesheet" href="lib/css/style2_pengunjung.css">
+	<link rel="stylesheet" href="lib/css/colorpicker.css">
+
+	<link href='lib/css/fonts/font-awesome.min.css' rel='stylesheet prefetch'/>
 
   <!--
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.2/angular.min.js"></script>
@@ -22,27 +24,27 @@
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.2/angular-messages.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.2/angular-cookies.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.2/angular-sanitize.min.js"></script>
-  -->
+-->
 
-  <script src="lib/js/angular.min.js"></script>
-  <script src="lib/js/angular-route.min.js"></script>
-  <script src="lib/js/angular-animate.min.js"></script>
-  <script src="lib/js/angular-aria.min.js"></script>
-  <script src="lib/js/angular-material.min.js"></script>
-  <script src="lib/js/angular-messages.min.js"></script>
-  <script src="lib/js/angular-cookies.min.js"></script>
-  <script src="lib/js/angular-sanitize.min.js"></script>
- 
-  <script src="lib/js/pagination.js"></script>
-  <script src='lib/js/textAngular.js'></script>
-  <script src='lib/js/bootstrap-colorpicker-module.js'></script>
-  
-  <script src="app/app.js"></script>      
-  <script src="app/root.js"></script>
-  <script src="app/request.js"></script> 
+<script src="lib/js/angular.min.js"></script>
+<script src="lib/js/angular-route.min.js"></script>
+<script src="lib/js/angular-animate.min.js"></script>
+<script src="lib/js/angular-aria.min.js"></script>
+<script src="lib/js/angular-material.min.js"></script>
+<script src="lib/js/angular-messages.min.js"></script>
+<script src="lib/js/angular-cookies.min.js"></script>
+<script src="lib/js/angular-sanitize.min.js"></script>
 
-  <script src="controller/login/login_pengunjung.js"></script>
-  <script src="controller/dashboard_pengunjung/dashboard.js"></script>
+<script src="lib/js/pagination.js"></script>
+<script src='lib/js/textAngular.js'></script>
+<script src='lib/js/bootstrap-colorpicker-module.js'></script>
+
+<script src="app/app.js"></script>      
+<script src="app/root.js"></script>
+<script src="app/request.js"></script> 
+
+<script src="controller/login/login_pengunjung.js"></script>
+<script src="controller/dashboard_pengunjung/dashboard.js"></script>
   <!-- <script src="controller/order/list.js"></script>
   <script src="controller/order/create.js"></script>
   <script src="controller/product/list.js"></script>
@@ -118,15 +120,15 @@
 			<md-toolbar ng-hide="isLogin" role="toolbar">
 				<div class="md-toolbar-tools">
 					<!-- toogle button -->
-					<md-button class="md-icon-button" ng-click="toggleSidenav('left')" hide-gt-md aria-label="Menu">
+					<!-- <md-button class="md-icon-button" ng-click="toggleSidenav('left')" hide-gt-md aria-label="Menu">
 						<md-icon>menu</md-icon>
-					</md-button>
+					</md-button> -->
 
 					<!-- toolbar title -->
-					<h4 class="md-title">{{pagetitle}}</h4> <span flex></span>
+					<!-- <h4 class="md-title">{{pagetitle}}</h4> <span flex></span> -->
 					
 					<!-- Search layout -->
-					<md-card flex ng-if="search_show">
+					<!-- <md-card flex ng-if="search_show">
 						<div layout="row">
 							<md-icon ng-click="closeSearch($event)" style="color:#BDBDBD;margin-left:10px;cursor:pointer;">close</md-icon>
 							<md-input-container flex md-no-float style="padding:6px;margin-left:5px">		
@@ -134,16 +136,135 @@
 							</md-input-container>
 							<md-icon ng-click="submitSearch($event, q)" style="color:#4DB151;margin-right:10px;cursor:pointer;">search</md-icon>
 						</div>
-					</md-card>
+					</md-card> -->
 
-					<!-- add search action -->
-					<md-button ng-if="search_enable && !search_show" class="md-icon-button" ng-click="searchAction($event)"><md-icon>search</md-icon></md-button>
-					
-					<!-- add button -->
-					<md-button ng-if="toolbar_menu != null" class="md-primary" ng-click="barAction($event)">{{toolbar_menu.title}}</md-button>
 
-					<!-- more -->
-					<md-menu md-position-mode="target-right target" >
+					<div layout="column" layout-fill>
+						<md-toolbar>
+							<!-- <md-subheader>Online Friends</md-subheader> -->
+							<div class="md-toolbar-tools">
+								<h2 md-truncate flex>PawonApps</h2>
+								<md-button>
+									<i class="fa fa-shopping-cart fa-lg"></i>
+								</md-button>
+
+								<md-button>
+									<i class="fa fa-exchange fa-lg"></i>
+								</md-button>
+
+								<md-button>
+									<i class="fa fa-question-circle fa-lg"></i>
+								</md-button>
+
+								<md-button>
+									<i class="fa fa-bell-o fa-lg"></i>
+								</md-button>
+							</div>
+						</md-toolbar>
+						<md-content>
+							Hello!
+						</md-content>
+					</div>
+
+
+					<!-- <md-subheader class="md-no-sticky">Not Sticky</md-subheader><md-subheader>Online Friends</md-subheader> -->
+
+
+					<div ng-controller="SubheaderAppCtrl" layout="column" flex="" layout-fill="" ng-cloak="" class="subheaderdemoBasicUsage" ng-app="MyApp">
+
+						<!-- <md-toolbar md-scroll-shrink="">
+							<div class="md-toolbar-tools">Pawon</div>
+						</md-toolbar>
+
+						<mat-toolbar color="primary">
+							<span>Application Title</span> -->
+
+							<!-- This fills the remaining space of the current row -->
+							<!-- <span class="example-fill-remaining-space"></span> -->
+
+							<!-- <span>Right Aligned Text</span>
+						</mat-toolbar>
+						.example-fill-remaining-space {
+						/* This fills the remaining space, by using flexbox. 
+						Every toolbar row uses a flexbox row layout. */
+						flex: 1 1 auto;
+					}
+					<md-content style="height: 600px;" md-theme="altTheme">
+
+						<section>
+							<md-subheader class="md-primary">Unread Messages</md-subheader>
+							<md-list layout-padding="">
+								<md-list-item class="md-3-line" ng-repeat="message in messages">
+									<img ng-src="{{message.face}}" class="md-avatar" alt="{{message.who}}">
+									<div class="md-list-item-text">
+										<h3>{{message.what}}</h3>
+										<h4>{{message.who}}</h4>
+										<p>
+											{{message.notes}}
+										</p>
+									</div>
+								</md-list-item>
+							</md-list>
+						</section>
+
+						<section>
+							<md-subheader class="md-warn">Late Messages</md-subheader>
+							<md-list layout="column" layout-padding="">
+								<md-list-item class="md-3-line" ng-repeat="message in messages">
+									<img ng-src="{{message.face}}" class="md-avatar" alt="{{message.who}}">
+									<div class="md-list-item-text">
+										<h3>{{message.what}}</h3>
+										<h4>{{message.who}}</h4>
+										<p>
+											{{message.notes}}
+										</p>
+									</div>
+								</md-list-item>
+							</md-list>
+						</section>
+
+						<section>
+							<md-subheader>Read Messages</md-subheader>
+							<md-list layout="column" layout-padding="">
+								<md-list-item class="md-3-line" ng-repeat="message in messages">
+									<img ng-src="{{message.face}}" class="md-avatar" alt="{{message.who}}">
+									<div class="md-list-item-text">
+										<h3>{{message.what}}</h3>
+										<h4>{{message.who}}</h4>
+										<p>
+											{{message.notes}}
+										</p>
+									</div>
+								</md-list-item>
+							</md-list>
+						</section>
+
+						<section>
+							<md-subheader class="md-accent">Archived messages</md-subheader>
+							<md-list layout="column" layout-padding="">
+								<md-list-item class="md-3-line" ng-repeat="message in messages">
+									<img ng-src="{{message.face}}" class="md-avatar" alt="{{message.who}}">
+									<div class="md-list-item-text">
+										<h3>{{message.what}}</h3>
+										<h4>{{message.who}}</h4>
+										<p>
+											{{message.notes}}
+										</p>
+									</div>
+								</md-list-item>
+							</md-list>
+						</section>
+					</md-content>
+				</div> -->
+
+				<!-- add search action -->
+				<!-- <md-button ng-if="search_enable && !search_show" class="md-icon-button" ng-click="searchAction($event)"><md-icon>search</md-icon></md-button> -->
+
+				<!-- add button -->
+				<!-- <md-button ng-if="toolbar_menu != null" class="md-primary" ng-click="barAction($event)">{{toolbar_menu.title}}</md-button> -->
+
+				<!-- more -->
+					<!-- <md-menu md-position-mode="target-right target" >
 						<md-button class="md-icon-button" ng-click="$mdOpenMenu($event)">
 						  <md-icon>more_vert</md-icon>
 						</md-button>
@@ -151,21 +272,30 @@
 						  <md-menu-item> <md-button layout-fill md-ink-ripple ng-click="directHref('#setting')">Setting</md-button> </md-menu-item>
 						  <md-menu-item> <md-button layout-fill md-ink-ripple ng-click="doLogout($event)">Logout</md-button></md-menu-item>
 						</md-menu-content>
-					</md-menu>
+					</md-menu> -->
 				</div>
 			</md-toolbar>
 
 			<!-- CONTENT PAGE -->
-			<md-content layout ng-hide="isLogin" md-scroll-y flex class="md-padding" ng-style="{'background' : bgColor}">
+			<!-- <md-content layout ng-hide="isLogin" md-scroll-y flex class="md-padding" ng-style="{'background' : bgColor}">
 				<div ng-view layout-fill flex></div>
-			</md-content>
+			</md-content> -->
 
 			<!-- CONTENT LOGIN -->
-			<md-content layout ng-hide="!isLogin" md-scroll-y layout-align="center center" flex class="md-padding" ng-style="{'background' : bgColor}">
+			<!-- <md-content layout ng-hide="!isLogin" md-scroll-y layout-align="center center" flex class="md-padding" ng-style="{'background' : bgColor}">
 				<div ng-view layout-fill flex></div>
-			</md-content>
+			</md-content> -->
 		</div>
 	</div>
-</body>
 
+	<!-- <mat-toolbar>  
+		<mat-toolbar-row>
+			<span>First Row</span>
+		</mat-toolbar-row>
+
+		<mat-toolbar-row>
+			<span>Second Row</span>
+		</mat-toolbar-row>
+	</mat-toolbar> -->
+</body>
 </html>
